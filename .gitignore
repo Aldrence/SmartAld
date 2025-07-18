@@ -1,0 +1,23 @@
+# Ignore Python environment files
+venv/
+__pycache__/
+*.pyc
+
+# Ignore FastAPI artifacts
+uploads/
+*.sqlite3
+
+# Ignore Node artifacts
+node_modules/
+.next/
+dist/
+*.log
+
+# Ignore secrets
+.env
+.env.*
+.DS_Store
+
+# Ignore system files
+*.zip
+Thumbs.db
